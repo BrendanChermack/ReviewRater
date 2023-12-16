@@ -1,0 +1,98 @@
+/* Grid */
+grid-cols-{n} /* n is the number of columns */
+grid-rows-{n} /* n is the number of rows */
+gap-{size} /* size is the gap between grid items */
+
+/* Flexbox */
+flex-row
+flex-col
+flex-wrap
+justify-{start|end|center|between|around}
+items-{start|end|center|baseline|stretch}
+content-{start|end|center|between|around|stretch}
+
+/* Spacing */
+p-{size} /* size is the padding */
+m-{size} /* size is the margin */
+inset-{size} /* size is the inset */
+space-x-{size} /* size is the horizontal space between elements */
+space-y-{size} /* size is the vertical space between elements */
+
+/* Sizing */
+w-{size} /* size is the width */
+h-{size} /* size is the height */
+max-w-{size} /* size is the maximum width */
+max-h-{size} /* size is the maximum height */
+min-w-{size} /* size is the minimum width */
+min-h-{size} /* size is the minimum height */
+
+/* Typography */
+text-{size} /* size is the font size */
+font-{family} /* family is the font family */
+font-{weight} /* weight is the font weight */
+leading-{size} /* size is the line height */
+tracking-{size} /* size is the letter spacing */
+text-{color} /* color is the text color */
+text-opacity-{opacity} /* opacity is the text opacity */
+bg-{color} /* color is the background color */
+bg-opacity-{opacity} /* opacity is the background opacity */
+
+/* Borders */
+border-{size} /* size is the border width */
+border-{color} /* color is the border color */
+rounded-{size} /* size is the border radius */
+
+/* Display */
+hidden
+block
+inline-block
+inline
+flex
+inline-flex
+
+/* Positioning */
+static
+fixed
+absolute
+relative
+sticky
+
+/* Overflow */
+overflow-auto
+overflow-hidden
+overflow-visible
+overflow-scroll
+
+/* Background */
+bg-{color} /* color is the background color */
+bg-opacity-{opacity} /* opacity is the background opacity */
+bg-{position} /* position is the background position */
+bg-{size} /* size is the background size */
+
+/* Shadows */
+shadow-sm
+shadow
+shadow-md
+shadow-lg
+shadow-xl
+shadow-2xl
+
+/* Hover */
+hover:{class} /* applies the class on hover */
+hover:bg-{color} /* applies the background color on hover */
+hover:text-{color} /* applies the text color on hover */
+
+/* Focus */
+focus:{class} /* applies the class on focus */
+focus:outline-none /* removes the outline on focus */
+
+/* Active */
+active:{class} /* applies the class on active */
+active:bg-{color} /* applies the background color on active */
+active:text-{color} /* applies the text color on active */
+
+/* Transition */
+transition-{property} /* property is the CSS property to transition */
+duration-{time} /* time is the duration of the transition */
+ease-{timing-function} /* timing-function is the easing function */
+delay-{time} /* time is the delay before the transition starts */
